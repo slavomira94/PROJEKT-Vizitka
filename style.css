@@ -14,3 +14,72 @@ tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
+h1 {
+    color: #d63031;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    background-color: #b2bec3;
+}
+
+.vizitka {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 550px;
+    box-shadow: 10px 10px 18px #888888;
+    margin: auto;
+    margin-top: 150px;
+    position: relative;
+}
+
+.Eliska {
+    border: 3px solid white;
+    border-radius: 50%;
+    box-shadow: 10px 10px 18px #888888;
+    width: 150px;
+    position: absolute;
+    left: 475px;
+    top: -75px;
+}
+
+.twitter {
+    background-color: #1da1f2;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px
+}
+
+.facebook {
+    background-color: #3b5998;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.facebook:hover {
+    background-color: #2b406e;   
+}
+
+.twitter:hover {
+    background-color: #0b7bc1;   
+}
+
+.posledny {
+    margin-bottom: 30px;
+}
